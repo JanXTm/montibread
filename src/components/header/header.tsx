@@ -3,7 +3,6 @@ import { Link } from '@builder.io/qwik-city';
 import { APP_STATE, CUSTOMER_NOT_DEFINED_ID } from '~/constants';
 import { logoutMutation } from '~/providers/shop/account/account';
 import { getActiveCustomerQuery } from '~/providers/shop/customer/customer';
-import { GitHubLink } from '../GitHubLink/GitHubLink';
 import LogoutIcon from '../icons/LogoutIcon';
 import MenuIcon from '../icons/MenuIcon';
 import ShoppingBagIcon from '../icons/ShoppingBagIcon';
@@ -45,24 +44,12 @@ export default component$(() => {
 
 	return (
 		<div
-			class={`bg-gradient-to-r from-blue-700 to-indigo-900 transform shadow-xl sticky top-0 z-10 animate-dropIn`}
+			class={`bg-gradient-to-r from-blue-800 to-yellow-400 transform shadow-xl sticky top-0 z-10 animate-dropIn`}
 		>
 			<header>
 				<div class="bg-zinc-100 text-gray-600 shadow-inner text-center text-sm py-1 px-2 xl:px-0">
 					<div class="max-w-6xl mx-2 h-5 min-h-full md:mx-auto flex items-center justify-between my-1">
 						<div class="flex justify-between items-center w-full">
-							<div>
-								<p class="hidden sm:block">
-									{$localize`Exclusive: Get your own`}{' '}
-									<a
-										href="https://github.com/vendure-ecommerce/storefront-qwik-starter"
-										target="_blank"
-										class="underline"
-									>
-										{$localize`FREE storefront starter kit`}
-									</a>
-								</p>
-							</div>
 							<div class="flex mr-[60px] 2xl:mr-0">
 								<Link
 									href={appState.customer.id !== CUSTOMER_NOT_DEFINED_ID ? '/account' : '/sign-in'}
@@ -96,7 +83,7 @@ export default component$(() => {
 					</button>
 					<h1 class="text-white w-10">
 						<Link href="/">
-							<img src={`/cube-logo-small.webp`} width={40} height={31} alt="Vendure logo" />
+							<img src={`/montibreadlogo.png`} width={40} height={31} alt="Vendure logo" />
 						</Link>
 					</h1>
 					<div class="hidden space-x-4 sm:block">
@@ -131,7 +118,6 @@ export default component$(() => {
 						</button>
 					</div>
 				</div>
-				<GitHubLink />
 			</header>
 		</div>
 	);

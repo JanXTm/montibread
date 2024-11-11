@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="200" height="200"><svg viewBox="0 0 200 200" version="1.1" id="SvgjsSvg1039" sodipodi:docname="bakery-logo-no-text.svg" width="200" height="200" inkscape:export-filename="bakery-logo-no-text.png" inkscape:export-xdpi="96" inkscape:export-ydpi="96" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="SvgjsDefs1038"></defs>
+  <sodipodi:namedview id="SvgjsSodipodi:namedview1037" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1">
+    <inkscape:page x="0" y="0" width="200" height="200" id="SvgjsInkscape:page1036" margin="0" bleed="0"></inkscape:page>
+  </sodipodi:namedview>
+  <!-- Background circle -->
+  <!-- Left child silhouette -->
+  <!-- Head -->
+  <circle cx="72.999992" cy="65" r="15" fill="#f4a460" id="SvgjsCircle1035"></circle>
+  <!-- Body -->
+  <path d="M 63,80.000002 H 83 V 120 H 63 Z" fill="#f4a460" id="SvgjsPath1034"></path>
+  <!-- Arms - curved around bread -->
+  <path d="m 83,90.000002 q 15,-5 20,5" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1033"></path>
+  <path d="M 63,90.000002 53,105" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1032"></path>
+  <!-- Legs -->
+  <path d="m 68,120 -5,20" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1031"></path>
+  <path d="m 78,120 5,20" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1030"></path>
+  <!-- Right child silhouette -->
+  <!-- Head -->
+  <circle cx="143.00026" cy="65" r="15" fill="#f4a460" id="SvgjsCircle1029"></circle>
+  <!-- Body -->
+  <path d="m 133,80.000002 h 20 V 120 h -20 z" fill="#f4a460" id="SvgjsPath1028"></path>
+  <!-- Arms - curved around bread -->
+  <path d="m 133,90.000002 q -15,-5 -20,5" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1027"></path>
+  <path d="M 153,90.000002 163,105" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1026"></path>
+  <!-- Legs -->
+  <path d="m 138,120 -5,20" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1025"></path>
+  <path d="m 148,120 5,20" stroke="#f4a460" stroke-width="6" stroke-linecap="round" id="SvgjsPath1024"></path>
+  <!-- Bread loaf between children -->
+  <path d="m 93,80.000002 q 15,-10 30,0 10,10 0,19.999998 -15,10 -30,0 -10,-9.999998 0,-19.999998" fill="#deb887" id="SvgjsPath1023"></path>
+  <!-- Bread details -->
+  <path d="m 98,85.000002 q 10,-10 20,0" fill="none" stroke="#d2691e" stroke-width="1.5" id="SvgjsPath1022"></path>
+  <path d="m 98,90.000002 q 10,-10 20,0" fill="none" stroke="#d2691e" stroke-width="1.5" id="SvgjsPath1021"></path>
+  <path d="m 98,95.000002 q 10,-10 20,0" fill="none" stroke="#d2691e" stroke-width="1.5" id="SvgjsPath1020"></path>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>

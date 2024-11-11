@@ -16,9 +16,11 @@ export const Head = component$(() => {
 			<meta name="theme-color" content="#1D4ED8" />
 			<title>{head.title || DEFAULT_METADATA_TITLE}</title>
 
-			<link rel="manifest" href="/manifest.json" />
-			<link rel="apple-touch-icon" href="/logo-192-192.png" />
-			<link rel="preconnect" href="https://demo.vendure.io" />
+			<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+			<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+			<link rel="shortcut icon" href="/favicon.ico" />
+			<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+			<link rel="manifest" href="/site.webmanifest" />
 			<link rel="canonical" href={loc.url.toString()} />
 
 			{head.meta.map((m, key) => (
@@ -33,7 +35,7 @@ export const Head = component$(() => {
 				<style key={key} {...s.props} dangerouslySetInnerHTML={s.style} />
 			))}
 
-			<meta name="description" content="Vendure Qwik Storefront" />
+			<meta name="description" content="MontiBread" />
 		</head>
 	);
 });
