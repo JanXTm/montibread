@@ -44,7 +44,7 @@ export default component$(() => {
 
 	return (
 		<div
-			class={`bg-gradient-to-r from-blue-800 to-yellow-400 transform shadow-xl sticky top-0 z-10 animate-dropIn`}
+			class={`bg-gradient-to-l from-blue-800 to-yellow-400 transform shadow-xl sticky top-0 z-10 animate-dropIn`}
 		>
 			<header>
 				<div class="bg-zinc-100 text-gray-600 shadow-inner text-center text-sm py-1 px-2 xl:px-0">

@@ -20,8 +20,8 @@ export default component$(() => {
 				</div>
 				<div class="relative max-w-3xl mx-auto py-32 px-6 flex flex-col items-left text-left sm:py-64 lg:px-0">
 					<div class="relative bg-zinc-800 bg-opacity-0 rounded-lg p-0">
-						<h1 class="text-5xl text-transparent bg-clip-text font-extrabold tracking-normal lg:text-6xl bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600">
-							{$localize`MontiBread`}
+						<h1 class="text-5xl text-transparent bg-clip-text font-extrabold tracking-normal lg:text-6xl bg-gradient-to-l from-yellow-400 to-blue-800 w-fit">
+							MontiBread
 						</h1>
 					</div>
 
